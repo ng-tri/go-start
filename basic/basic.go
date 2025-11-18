@@ -203,6 +203,8 @@ func array() {
 // func main() {
 //     a := Nguoi{Ten: "Linh", Tuoi: 30}
 //     fmt.Println(a.Ten)
+//     s1 := fmt.Sprintf("%s, %d tuổi.", a.Ten, a.Tuoi)
+//     fmt.Println(s1)
 // }
 
 // // 9. Pointer

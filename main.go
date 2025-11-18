@@ -1,26 +1,28 @@
 package main
 
-import (
-	// "github.com/gin-gonic/gin"
-	// "go_start/basic"
-	// "go_start/controllers"
-	// "go_start/intermediate"
-	"go_start/practice"
-)
+// "github.com/gin-gonic/gin"
+// "go_start/advance"
+// "go_start/basic"
+// "go_start/controllers"
+// "go_start/intermediate"
+// "go_start/practice"
 
 func main() {
 	// router := gin.Default()
 
 	// // Route giống Laravel
 	// router.GET("/", controllers.HomeIndex)
+	// router.Run() // Chạy server tại localhost:8080
 
-	// // router.Run() // Chạy server tại localhost:8080
+	// advance.RunChannel()
+	// advance.RunGoroutine()
 
 	// basic.RunTest()
 	// basic.RunBasic()
+
+	// controllers.Http()
+
 	// intermediate.RunInterface()
-	// intermediate.RunGoroutine()
-	// intermediate.RunChannel()
 	// intermediate.WriteFile()
 	// intermediate.ReadFile()
 	// intermediate.WriteCsv()
@@ -31,5 +33,6 @@ func main() {
 	// intermediate.InfoProduct()
 	// intermediate.InfoOrder()
 	// intermediate.InOrder()
-	practice.RunPractice()
+
+	// practice.RunPractice()
 }
